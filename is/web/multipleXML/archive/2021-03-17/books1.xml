@@ -1,0 +1,26 @@
+<bookstore>
+<book category="COOKING">
+<title lang="en">Everyday Indian</title>
+<author>Curry</author>
+<year>2005</year>
+<price>20.00</price>
+</book>
+<book category="COMPUTING">
+<title lang="en">Python</title>
+<author>Mr. Smith</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="Shop">
+<title lang="en-us">XQuery Kick Start</title>
+<author>James McGovern</author>
+<year>2003</year>
+<price>49.99</price>
+</book>
+<book category="Friend">
+<title lang="en-us">Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+</bookstore>

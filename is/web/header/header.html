@@ -1,0 +1,91 @@
+<?php
+
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+@media screen and (max-height: 400px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 10px;}
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<a class="navbar-brand pull-right" href="logout.php"> <span class="glyphicon glyphicon-off"></span> Logout </a>
+<a class="navbar-brand pull-center"> New User </a>
+<a class="navbar-brand pull-right"><span class="glyphicon glyphicon-user"></span>   </a>
+<a class="navbar-brand pull-center"> <p id="date"></p></a>
+<a class="navbar-brand pull-center"> Business Intelligence Web App </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+var n = new Date();
+
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+
+</script>
+
+
+  
+</body>
+</html> 
